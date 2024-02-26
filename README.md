@@ -1,5 +1,8 @@
 <a id="title"></a>
 # README Generator 
+<p style="font-size: smaller; text-align: right;">
+  <a href="#toc" style="float: right;">ToC</a>
+</p>
 
 <a id="toc"></a>
 ## Table of Contents
