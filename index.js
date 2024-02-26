@@ -29,11 +29,6 @@ const questions = [
   },
   {
     type: "input",
-    message: "Include visuals. Do you have screenshot links you can add to your readme? Don't forget the syntax is ![img name](img link).",
-    name: "visuals"
-  },
-  {
-    type: "input",
     message: "Include installations. Is there anything that the user would need to instal in order to run this code? What is it?",
     name: "installation"
   },
@@ -41,6 +36,11 @@ const questions = [
     type: "input",
     message: "Include a usage. What would this code be used for? Do you have an example?",
     name: "usage"
+  },
+  {
+    type: "input",
+    message: "Include visuals. Do you have screenshot links you can add to your readme? Don't forget the syntax is ![img name](img link).",
+    name: "visuals"
   },
   {
     type: "input",
