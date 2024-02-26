@@ -109,10 +109,8 @@ function renderLicenseLink(license) {
 }
 
 function generateMarkdown(data) {
-  return `<a id="title"></a>
-# ${data.title} 
+  return `# ${data.title} 
 
-<a id="toc"></a>
 ## Table of Contents
 - [Description](#description)
 - [Badges](#badges)
@@ -124,73 +122,59 @@ function generateMarkdown(data) {
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Authors and Acknowledgment](#acknowledgment)
-- [Project Status](#status)
 - [License](#license)
+- [Project Status](#status)
 
 <a id="description"></a>
 ## Description
 ${data.description}
-[Table of Contents](#toc)
 
 <a id="bedges"></a>
 ## Badges
 ${data.badges}
 ${renderLicenseBadge(data.license)}
-[Table of Contents](#toc)
 
 <a id="Visuals"></a>
 ## Visuals
 ${data.visuals}
-[Table of Contents](#toc)
 
 <a id="installation"></a>
 ## Installation
 ${data.installation}
-[Table of Contents](#toc)
 
 <a id="usage"></a>
 ## Usage
 ${data.usage}
-[Table of Contents](#toc)
 
 <a id="tests"></a>
 ## Tests
 ${data.tests}
-[Table of Contents](#toc)
 
 <a id="questions"></a>
 ## Questions
 If you have any questions about the contents. Please feel free to reach out!
-Here is my [Github](${data.github}) as well as my [Email](${data.email}).
-[Table of Contents](#toc)
+Here is my [Github](${data.github}) as well as my [Email](<a href="mailto:${data.email}"></a>).
 
 <a id="roadmap"></a>
 ## Roadmap
 ${data.roadmap}
-[Table of Contents](#toc)
 
 <a id="contributing"></a>
 ## Contributing
 ${data.contributing}
-[Table of Contents](#toc)
 
 <a id="acknowledgment"></a>
 ## Authors and Acknowledgment
 ${data.authors}
-[Table of Contents](#toc)
-
-<a id="status"></a>
-## Project Status
-${data.status}
-[Table of Contents](#toc)
 
 <a id="license"></a>
 ## License
 ${data.license} © ${data.year} ${data.user}
 Please refer to this link, ${renderLicenseLink(data.license)} for more information.
-[Table of Contents](#toc)
 
-[back to top](#title)`
+<a id="status"></a>
+## Project Status
+${data.status}`
 }
 
 module.exports = { 

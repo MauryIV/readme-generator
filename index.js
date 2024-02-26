@@ -24,7 +24,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Include badges. Example (https://img.shields.io/badge/Maury%20Hughes%20IV-8A2BE2). Check out shields.io/badges for help.",
+    message: "Include badges. Example ![Maury Hughes IV](https://img.shields.io/badge/Maury%20Hughes%20IV-5A2BE2). Check out shields.io/badges for help.",
     name: "badges"
   },
   {
@@ -73,11 +73,6 @@ const questions = [
     name: "authors"
   },
   {
-    type: "input",
-    message: "Include a project status. Is it complete? Do you have more you want to add to it? Is it a work in progress?",
-    name: "status"
-  },
-  {
     type: "list",
     message: "Include a license. Not sure what to go for? Check out this site https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository#choosing-the-right-license.",
     name: "license",
@@ -85,6 +80,11 @@ const questions = [
     'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 
     'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 
     'GNU Lesser General Public License v3.0', 'Mozilla Public License 2.0', 'The Unlicense']
+  },
+  {
+    type: "input",
+    message: "Include a project status. Is it complete? Do you have more you want to add to it? Is it a work in progress?",
+    name: "status"
   }
 ];
 
