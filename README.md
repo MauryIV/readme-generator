@@ -23,7 +23,7 @@ This project is to make creating a readme easier. You will be prompted by the co
 <a id="badges"></a>
 ## Badges
 ![Maury Hughes IV](https://img.shields.io/badge/Maury%20Hughes%20IV-5A2BE2)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 <a id="installation"></a>
 ## Installation
