@@ -153,7 +153,7 @@ ${data.tests}
 <a id="questions"></a>
 ## Questions
 If you have any questions about the contents. Please feel free to reach out!
-Here is my [Github](${data.github}) as well as my [Email](<a href="mailto:${data.email}"></a>).
+Here is my [Github](${data.github}) as well as my email <${data.email}>.
 
 <a id="roadmap"></a>
 ## Roadmap

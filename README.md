@@ -44,7 +44,7 @@ This project was tested on my local VSCode terminal with Node.js. When running t
 <a id="questions"></a>
 ## Questions
 If you have any questions about the contents. Please feel free to reach out!
-Here is my [Github](https://github.com/MauryIV) as well as my [Email](href="mailto:mauryhughesiv@gmail.com").
+Here is my [Github](https://github.com/MauryIV) as well as my email <mauryhughesiv@gmail.com>.
 
 <a id="roadmap"></a>
 ## Roadmap
