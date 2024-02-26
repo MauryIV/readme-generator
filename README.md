@@ -35,7 +35,7 @@ This code can be used to help keep your readmes professional simplify the proces
 
 <a id="Visuals"></a>
 ## Visuals
-NA
+[Video Walkthrough](https://drive.google.com/file/d/1mXW7Jh0GVSyPllepBFKyu7zdTiVCwrPw/view)
 
 <a id="tests"></a>
 ## Tests
