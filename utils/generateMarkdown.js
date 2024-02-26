@@ -109,9 +109,15 @@ function renderLicenseLink(license) {
 }
 
 function generateMarkdown(data) {
-  return `# ${data.title} 
+  return `<a id="title"></a>
+# ${data.title} 
+
+<a id="description"></a>
+## Description
+${data.description}
 
 ## Table of Contents
+- [Title](#title)
 - [Description](#description)
 - [Badges](#badges)
 - [Visuals](#visuals)
@@ -125,18 +131,10 @@ function generateMarkdown(data) {
 - [License](#license)
 - [Project Status](#status)
 
-<a id="description"></a>
-## Description
-${data.description}
-
-<a id="bedges"></a>
+<a id="badges"></a>
 ## Badges
 ${data.badges}
 ${renderLicenseBadge(data.license)}
-
-<a id="Visuals"></a>
-## Visuals
-${data.visuals}
 
 <a id="installation"></a>
 ## Installation
@@ -145,6 +143,10 @@ ${data.installation}
 <a id="usage"></a>
 ## Usage
 ${data.usage}
+
+<a id="Visuals"></a>
+## Visuals
+${data.visuals}
 
 <a id="tests"></a>
 ## Tests
@@ -174,7 +176,9 @@ Please refer to this link, ${renderLicenseLink(data.license)} for more informati
 
 <a id="status"></a>
 ## Project Status
-${data.status}`
+${data.status}
+
+[back to top](#title)`
 }
 
 module.exports = { 
